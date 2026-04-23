@@ -158,7 +158,7 @@ from openai import OpenAI
 client = OpenAI(base_url="http://localhost:8000/v1", api_key="EMPTY")
 
 response = client.chat.completions.create(
-    model="tencent/Hy3-preview",
+    model="hy3-preview",
     messages=[
         {"role": "user", "content": "Hello! Can you briefly introduce yourself?"},
     ],
